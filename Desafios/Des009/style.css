@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000000d8;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #732afc;
+}

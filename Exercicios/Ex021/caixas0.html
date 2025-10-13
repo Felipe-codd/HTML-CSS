@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(95, 95, 95);
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(228, 228, 228);
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.479);
+        }
+        
+        h2{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(136, 136, 136);
+            padding: 3px;
+            box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a{
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 13px 0px;
+            box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.479);
+            
+        }
+
+        article{
+            background-color: rgb(211, 211, 211);
+        }
+
+        article > aside{
+            background-color: rgb(94, 94, 94);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px
+            
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Meu Site</h2>        
+        <nav>            
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Pilítica Educação</p>
+            <article id="noticias">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione nam ipsam at velit nostrum praesentium similique perferendis distinctio voluptates saepe eos explicabo sed, enim error a consequatur molestiae suscipit!</p>
+                <aside>Escrito por Felipe</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Felipe</p>
+    </footer>
+</body>
+</html>
