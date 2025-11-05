@@ -56,14 +56,14 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3.8vw;
     font-weight: bold;
     
 
 }
 
 section > p{
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 section.normal{
