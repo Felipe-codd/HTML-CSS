@@ -18,9 +18,15 @@
             
 
         }
-        
+
+        caption {
+            font-size: 1.5em;
+            background-color: aliceblue;
+            font-weight: bolder;
+        }
+
         thead, tfoot{
-            background-color: #777777;
+            background-color: #303030;
             color: white;
         }
 
@@ -31,6 +37,7 @@
 
         .numero{
             text-align: right;
+            width: 200px;
         }
 
         .titulo{
@@ -42,10 +49,16 @@
     <h1>
         População do Brasil
     </h1>
-    <table>
+
+   
+
+    <table> 
+        <caption>
+            População das Unidades Federativas
+        </caption>
         <thead>
-        <th class="titulo">Estado</th>
-        <th class="titulo">População</th>
+        <th class="titulo" scope="col">Estado</th>
+        <th class="titulo" scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -161,7 +174,7 @@
 
         <tfoot>
             <tr>
-                <th class="titulo">Total</th>
+                <th class="titulo" scope="row">Total</th>
                 <th class="numero"><strong>213 421 037</strong></th>
             </tr>
         </tfoot>
